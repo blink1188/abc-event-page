@@ -1,8 +1,23 @@
-@import "tailwindcss";   /* turns Tailwind on */
+@import "tailwindcss"; /* turns Tailwind on */
 
-/* Our design colours from Figma, usable as bg-page, text-ink, bg-brand, etc. */
+/*
+  Design tokens taken from the Figma high-fidelity mockup.
+  Each --color-xxx becomes Tailwind classes like bg-xxx, text-xxx, border-xxx.
+  Each --font-xxx becomes a font-xxx class (font-sans is the default font).
+*/
 @theme {
-  --color-page: #faf7f2;   /* page background */
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+
+  --color-page: #faf7f2;   /* page background (warm off-white) */
+  --color-card: #fcfaf7;   /* background of white-ish cards */
+  --color-line: #e4dfd6;   /* borders and dividers */
   --color-ink: #1f2530;    /* main dark text */
-  --color-brand: #f26b4b;  /* orange accent (buttons) */
+  --color-muted: #5f6672;  /* secondary grey text */
+  --color-brand: #f26b4b;  /* orange accent (buttons, links) */
+  --color-brand-dark: #d9583a; /* darker orange for hover */
+}
+
+body {
+  background-color: var(--color-page);
+  color: var(--color-ink);
 }

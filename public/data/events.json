@@ -1,0 +1,191 @@
+[
+  {
+    "id": "f1-singapore-grand-prix-2026",
+    "title": "F1 Singapore Grand Prix 2026",
+    "category": "Sports",
+    "tags": ["motorsport", "sports", "night", "outdoor", "marina-bay"],
+    "image": "/images/f1-grand-prix.jpg",
+    "start": "2026-10-11T20:00:00+08:00",
+    "end": "2026-10-11T23:00:00+08:00",
+    "organiser": "FIA",
+    "price": 388,
+    "capacity": 300,
+    "seatsLeft": 24,
+    "venue": {
+      "name": "Marina Bay Street Circuit",
+      "city": "Singapore",
+      "address": "Marina Bay, 1 Republic Blvd, Singapore 038975",
+      "lat": 1.2914,
+      "lng": 103.864
+    },
+    "description": "Formula 1 lights up Singapore for the sport's original night race. Watch the cars scream past the Marina Bay skyline under thousands of floodlights, soak in the atmosphere at the fan zones, and stay for the post-race concerts. This ticket gives you grandstand access for the main race, so arrive early to find your spot and catch the drivers' parade."
+  },
+  {
+    "id": "neon-lights-music-fest",
+    "title": "Neon Lights Music Fest",
+    "category": "Music",
+    "tags": ["music", "concert", "festival", "night"],
+    "image": "/images/neon-lights.jpg",
+    "start": "2026-10-17T17:00:00+08:00",
+    "end": "2026-10-17T23:00:00+08:00",
+    "organiser": "ABC co. Live",
+    "price": 98,
+    "capacity": 2000,
+    "seatsLeft": 640,
+    "venue": {
+      "name": "Singapore Expo",
+      "city": "Singapore",
+      "address": "1 Expo Dr, Singapore 486150",
+      "lat": 1.3349,
+      "lng": 103.96
+    },
+    "description": "An evening of electronic and indie-pop acts across two indoor stages, with a full light show from sunset until late. Food trucks and a chill-out zone are available throughout the night."
+  },
+  {
+    "id": "foodie-paradise",
+    "title": "Foodie Paradise",
+    "category": "Food & Drink",
+    "tags": ["food", "festival", "outdoor", "marina-bay"],
+    "image": "/images/foodie-paradise.jpg",
+    "start": "2026-10-25T10:00:00+08:00",
+    "end": "2026-10-25T21:00:00+08:00",
+    "organiser": "Makan Collective",
+    "price": 0,
+    "capacity": 5000,
+    "seatsLeft": 5000,
+    "venue": {
+      "name": "Bayfront Event Space",
+      "city": "Singapore",
+      "address": "12A Bayfront Ave, Singapore 018970",
+      "lat": 1.2816,
+      "lng": 103.8636
+    },
+    "description": "Over 60 stalls serving local favourites and new flavours by the bay. Entry is free, so come hungry and pay for what you eat. Live cooking demos run every hour."
+  },
+  {
+    "id": "jazz-by-the-bay",
+    "title": "Jazz by the Bay",
+    "category": "Music",
+    "tags": ["music", "night", "outdoor", "marina-bay"],
+    "image": null,
+    "start": "2026-10-30T19:00:00+08:00",
+    "end": "2026-10-30T22:00:00+08:00",
+    "organiser": "ABC co. Live",
+    "price": 0,
+    "capacity": 800,
+    "seatsLeft": 210,
+    "venue": {
+      "name": "Esplanade Outdoor Theatre",
+      "city": "Singapore",
+      "address": "1 Esplanade Dr, Singapore 038981",
+      "lat": 1.2898,
+      "lng": 103.8559
+    },
+    "description": "A relaxed evening of live jazz on the waterfront. Bring a mat, grab a drink, and enjoy three local bands as the city lights come on."
+  },
+  {
+    "id": "startup-founders-mixer",
+    "title": "Startup Founders Mixer",
+    "category": "Business",
+    "tags": ["networking", "business", "indoor"],
+    "image": null,
+    "start": "2026-11-05T18:30:00+08:00",
+    "end": "2026-11-05T21:30:00+08:00",
+    "organiser": "ABC co. Ventures",
+    "price": 20,
+    "capacity": 150,
+    "seatsLeft": 45,
+    "venue": {
+      "name": "ABC co. Innovation Hub",
+      "city": "Singapore",
+      "address": "Level 5, 71 Ayer Rajah Crescent, Singapore 139951",
+      "lat": 1.2971,
+      "lng": 103.7875
+    },
+    "description": "Meet founders, investors and builders over an evening of short pitches and open networking. Light refreshments provided."
+  },
+  {
+    "id": "sunrise-yoga-retreat",
+    "title": "Sunrise Yoga Retreat",
+    "category": "Wellness",
+    "tags": ["wellness", "sports", "outdoor", "morning"],
+    "image": "/images/sunrise-yoga.jpg",
+    "start": "2026-11-07T07:00:00+08:00",
+    "end": "2026-11-07T09:00:00+08:00",
+    "organiser": "Breathe SG",
+    "price": 25,
+    "capacity": 60,
+    "seatsLeft": 0,
+    "venue": {
+      "name": "East Coast Park",
+      "city": "Singapore",
+      "address": "East Coast Park Service Rd, Singapore 449876",
+      "lat": 1.3008,
+      "lng": 103.9122
+    },
+    "description": "Start your weekend with a guided beach-side flow for all levels, followed by a light breakfast. Mats are provided."
+  },
+  {
+    "id": "marina-bay-night-run",
+    "title": "Marina Bay Night Run",
+    "category": "Sports",
+    "tags": ["sports", "running", "night", "outdoor", "marina-bay"],
+    "image": null,
+    "start": "2026-11-21T19:30:00+08:00",
+    "end": "2026-11-21T22:30:00+08:00",
+    "organiser": "RunSG Club",
+    "price": 65,
+    "capacity": 1500,
+    "seatsLeft": 300,
+    "venue": {
+      "name": "The Promontory @ Marina Bay",
+      "city": "Singapore",
+      "address": "11 Marina Blvd, Singapore 018940",
+      "lat": 1.2826,
+      "lng": 103.8574
+    },
+    "description": "A 5 km or 10 km evening run looping around Marina Bay, with a finisher medal and an after-party at the finish line."
+  },
+  {
+    "id": "art-culture-expo",
+    "title": "Art & Culture Expo",
+    "category": "Arts",
+    "tags": ["art", "culture", "exhibition", "indoor"],
+    "image": "/images/art-culture.jpg",
+    "start": "2026-12-14T11:00:00+08:00",
+    "end": "2026-12-14T18:00:00+08:00",
+    "organiser": "ABC co. Arts",
+    "price": 45,
+    "capacity": 1200,
+    "seatsLeft": 520,
+    "venue": {
+      "name": "Suntec Singapore Convention Centre",
+      "city": "Singapore",
+      "address": "1 Raffles Blvd, Singapore 039593",
+      "lat": 1.2936,
+      "lng": 103.8573
+    },
+    "description": "Paintings, installations and live performances from over 80 regional artists, all under one roof."
+  },
+  {
+    "id": "hawker-heritage-walk",
+    "title": "Hawker Heritage Walk",
+    "category": "Food & Drink",
+    "tags": ["food", "culture", "outdoor", "walking-tour"],
+    "image": null,
+    "start": "2026-09-12T09:00:00+08:00",
+    "end": "2026-09-12T12:00:00+08:00",
+    "organiser": "Makan Collective",
+    "price": 30,
+    "capacity": 25,
+    "seatsLeft": 0,
+    "venue": {
+      "name": "Maxwell Food Centre",
+      "city": "Singapore",
+      "address": "1 Kadayanallur St, Singapore 069184",
+      "lat": 1.2804,
+      "lng": 103.8448
+    },
+    "description": "A guided morning walk through three iconic hawker centres, with tastings and stories from second-generation stall owners."
+  }
+]
