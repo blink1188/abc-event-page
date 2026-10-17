@@ -11,7 +11,7 @@ function Navbar() {
       {/* Inner row: same 1242px width as the page content, centred */}
       <nav className="mx-auto flex h-[61px] max-w-[1242px] items-center justify-between gap-6 px-4 xl:px-0">
         {/* LEFT: logo + search */}
-        <div className="flex min-w-0 flex-1 items-center gap-[74px]">
+        <div className="flex min-w-0 flex-1 items-center gap-6 xl:gap-[74px]">
           <Link to="/" className="flex shrink-0 items-center gap-3">
             {/* Simple text logo in a black circle */}
             <span className="flex h-10 w-10 items-center justify-center rounded-full bg-black text-sm font-bold text-white">
@@ -20,12 +20,13 @@ function Navbar() {
             <span className="text-2xl font-medium">ABC co.</span>
           </Link>
 
-          <label className="hidden h-8 w-full max-w-[411px] items-center gap-2 rounded-md border border-[#d9d4ca] bg-white/60 px-3 md:flex">
+          <label className="hidden h-8 min-w-0 w-full max-w-[411px] items-center gap-2 rounded-md border border-[#d9d4ca] bg-white/60 px-3 focus-within:ring-2 focus-within:ring-brand md:flex">
             <FiSearch className="shrink-0 text-muted" aria-hidden="true" />
             <input
               type="search"
+              aria-label="Search events, locations, or categories"
               placeholder="Search events, locations, or categories"
-              className="w-full bg-transparent text-xs outline-none placeholder:text-muted"
+              className="min-w-0 w-full bg-transparent text-xs outline-none placeholder:text-muted"
             />
           </label>
         </div>

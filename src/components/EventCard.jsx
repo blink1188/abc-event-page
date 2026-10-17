@@ -2,6 +2,7 @@ import { Link } from 'react-router-dom'
 import { FaArrowRight } from 'react-icons/fa'
 import { FiCalendar, FiMapPin } from 'react-icons/fi'
 import { formatDate, formatTime } from '../utils/events.js'
+import EventImage from './EventImage.jsx'
 
 // EventCard: small card for one related event. The whole card links to that event's page.
 // Props: event.
@@ -11,14 +12,14 @@ function EventCard({ event }) {
       to={`/events/${event.id}`}
       className="group block overflow-hidden rounded-sm border border-line bg-white transition-shadow hover:shadow-md"
     >
-      {event.image ? (
-        <img src={event.image} alt="" className="h-[85px] w-full object-cover" />
-      ) : (
-        // No image -> gradient placeholder with the category name
-        <div className="flex h-[85px] items-center justify-center bg-linear-to-br from-ink to-brand text-sm font-semibold text-white">
-          {event.category}
-        </div>
-      )}
+      <EventImage
+        src={event.image}
+        alt=""
+        className="h-[85px] w-full object-cover"
+        fallbackClassName="flex h-[85px] items-center justify-center bg-linear-to-br from-ink to-brand text-sm font-semibold text-white"
+      >
+        {event.category}
+      </EventImage>
 
       <div className="flex items-end justify-between gap-3 px-3.5 pb-[13px] pt-[13px]">
         <div className="min-w-0 space-y-1">

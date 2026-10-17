@@ -16,7 +16,7 @@ function EventLocation({ venue }) {
     <section className="mt-[18px] rounded-sm border border-line bg-card px-[19px] pb-[19px] pt-[13px]">
       <h2 className="text-lg font-semibold">Event location</h2>
 
-      <div className="mt-2 grid gap-6 md:grid-cols-[553px_1fr]">
+      <div className="mt-2 grid gap-6 md:grid-cols-[minmax(0,1.2fr)_minmax(0,1fr)]">
         <iframe
           title={`Map showing ${venue.name}`}
           src={mapUrl}
@@ -24,7 +24,7 @@ function EventLocation({ venue }) {
           className="h-[296px] w-full border-0"
         />
 
-        <div className="pt-2.5">
+        <div className="min-w-0 break-words pt-2.5">
           <h3 className="text-base font-semibold">Venue name</h3>
           <p className="mt-3 text-sm">{venue.name}</p>
           <p className="mt-3 flex items-center gap-2.5 text-xs text-muted">

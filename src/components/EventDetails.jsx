@@ -7,7 +7,7 @@ function EventDetails({ event }) {
   const ended = isConcluded(event)
 
   return (
-    <section>
+    <section className="min-w-0 break-words">
       {ended && (
         // "&&" in JSX: only render this when `ended` is true
         <p className="mb-2 inline-block rounded-full bg-ink px-3 py-1 text-xs font-medium text-white">
@@ -43,10 +43,10 @@ function EventDetails({ event }) {
 // (component names must start with a capital letter).
 function InfoRow({ icon: Icon, label, children }) {
   return (
-    <div className="flex items-center">
+    <div className="grid grid-cols-[24px_minmax(0,1fr)] items-start gap-x-3 gap-y-1 sm:grid-cols-[24px_111px_minmax(0,1fr)] sm:gap-x-[19px]">
       <Icon className="shrink-0 text-2xl" strokeWidth={1.5} aria-hidden="true" />
-      <dt className="ml-[19px] w-[111px] shrink-0 font-medium">{label}</dt>
-      <dd className="text-muted">{children}</dd>
+      <dt className="font-medium">{label}</dt>
+      <dd className="col-start-2 min-w-0 text-muted sm:col-start-3">{children}</dd>
     </div>
   )
 }
